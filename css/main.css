@@ -303,6 +303,11 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   /* ********** HEADER ********** */
 
   header {
@@ -324,6 +329,22 @@ footer {
     justify-content: space-between;
   }
 
+  /* ********** LOCATION ********** */
+
+  .location {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .information {
+    position: absolute;
+    background-color: rgba( 255, 255, 255, 0.5);
+    padding: 0 2em;
+    bottom: 1.25em;
+    right: 1em;
+  }
+
   /* ********** MENU ********** */
 
   .menu-items li {
@@ -342,4 +363,49 @@ footer {
   }
 
   /* ********** FOOTER ********** */
+
+  #contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+  .phone {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 1em;
+  }
+
+  .email {
+    margin-bottom: 1em;
+  }
+
+  .copyright {
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+  }
+
+  .social {
+    display: flex;
+    width: 30%;
+    margin: 0;
+  }
+
+  .social img {
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+  font-size: 120%;
+  line-height: 1.5;
+}
+
+  .nav  {
+    width: 40%;
+  }
+
 }
