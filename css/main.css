@@ -188,10 +188,6 @@ header {
     margin-top: 0;
   }
 
-  .social {
-    padding: 0;
-  }
-
   .social li {
     width: 33%;
     list-style-type: none;
@@ -201,6 +197,7 @@ header {
   .social {
     display: flex;
     justify-content: space-between;
+    padding: 0;
   }
 
   .social img {
