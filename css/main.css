@@ -174,37 +174,39 @@ header {
 @media only screen and (min-width: 25em) {
 /* FOOTER */
 
-footer {
-  padding: 1rem;
-  background-color: #d8d8d8;
-}
+  footer {
+    padding: 1rem;
+    background-color: #d8d8d8;
+  }
 
-#contact h3 {
-  margin-bottom: 0;
-  margin-top: .5rem;
-}
+  #contact h3 {
+    margin-bottom: 0;
+    margin-top: .5rem;
+  }
 
-#contact p {
-  margin-top: 0;
-}
+  #contact p {
+    margin-top: 0;
+  }
 
-.social {
-  padding: 0;
-}
+  .social {
+    padding: 0;
+  }
 
-.social li {
-  width: 33%;
-  list-style-type: none;
-  text-align: center;
-}
+  .social li {
+    width: 33%;
+    list-style-type: none;
+    text-align: center;
+  }
 
-.social {
-  display: flex;
-  justify-content: space-between;
-}
+  .social {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.social img {
-  width: 66%;
+  .social img {
+    width: 66%;
+  }
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -295,6 +297,7 @@ footer {
   .social img {
     width: 45%;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -370,7 +373,6 @@ footer {
     display: inline-block;
     width: 50%;
     margin-bottom: 1em;
-      margin-bottom: 1em;
   }
 
   .copyright {
@@ -388,6 +390,7 @@ footer {
   .social img {
     width: 50px;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -409,7 +412,7 @@ footer {
     display: flex;
   }
 
-  .review-1, .review-2{
+  .review-1, .review-2 {
     width: 50%;
   }
 
