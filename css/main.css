@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Bitter', serif;
+  font-family: Bitter, serif;
 }
 
 *, *::before, *::after {
@@ -172,10 +172,6 @@ header {
 }
 
 @media only screen and (min-width: 25em) {
-
-
-
-}
 /* FOOTER */
 
 footer {
