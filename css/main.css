@@ -31,7 +31,7 @@ h3 {
   color: #7a9bff;
 }
 
-/* HEADER */
+/* ********** HEADER ********** */
 .store-name {
   display: none;
 }
@@ -49,10 +49,12 @@ h3 {
 nav {
   display: inline-block;
 }
+
 .nav ul {
   margin: 0;
   padding: 0;
 }
+
 .nav li a{
   display: inline-block;
   text-decoration: none;
@@ -79,7 +81,11 @@ header {
   background-color: #2953d1;
 }
 
-/* LOCATION */
+.nav li .nav-loc {
+  margin-top: 0;
+}
+
+/* ********** LOCATION ********** */
 
 .location {
   margin: 1rem;
@@ -118,7 +124,10 @@ header {
   margin-left: 1rem;
 }
 
-/* MENU */
+.info-hours {
+  margin-left: 1rem;
+}
+/* ********** MENU ********** */
 
 .menu {
   margin: 1rem;
@@ -162,6 +171,11 @@ header {
   margin: 0;
 }
 
+@media only screen and (min-width: 25em) {
+
+
+
+}
 /* FOOTER */
 
 footer {
@@ -195,4 +209,137 @@ footer {
 
 .social img {
   width: 66%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+   font-size: 100%;
+   line-height: 1.3;
+ }
+
+  .store-name, .logo {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+  }
+
+  header {
+    display: block;
+  }
+
+  .logo-title {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  .logo-title img {
+    display: inline-block;
+    width: 30%;
+  }
+
+  .logo-title .store-name {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .nav {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+
+  .nav li a {
+    margin-top: 0;
+  }
+
+  /* ********** MENU ********** */
+
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .menu-items li {
+    width: 45%;
+  }
+
+  /* ********** REVIEWS ********** */
+
+  .review-1, .review-2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .review-photo {
+    width: 40%;
+  }
+
+  .reviews img {
+    width: 100%;
+  }
+
+  .review-content {
+    display: inline-block;
+    width: 50%;
+  }
+
+/* ********** FOOTER ********** */
+
+  .social img {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  /* ********** HEADER ********** */
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-title {
+    margin-left: 0;
+    width: 33%;
+  }
+
+  .nav {
+    width: 50%;
+  }
+  .nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* ********** MENU ********** */
+
+  .menu-items li {
+    width: 30%;
+  }
+
+  /* ********** REVIEWS ********** */
+
+
+  .review-photo img {
+    width: 66%;
+  }
+
+  .review-1, .review-2 {
+    justify-content: center;
+  }
+
+  /* ********** FOOTER ********** */
 }
